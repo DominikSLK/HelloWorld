@@ -1,0 +1,10 @@
+name: HelloWorld
+version: '${project.version}'
+main: dominikslk.helloworld.HelloWorld
+api-version: 1.18
+authors: [ DominikSLK ]
+description: Just a hello world plugin :D
+commands:
+  helloworld:
+    description: This is a hello world command.
+    usage: /<command>
